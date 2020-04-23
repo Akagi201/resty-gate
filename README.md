@@ -18,9 +18,8 @@ A Web Server or API Gateway based on OpenResty.
 
 * `openresty -p . -c conf/nginx.conf`
 
-## Certbot
-* <https://certbot.eff.org/>
-* reference: <https://gist.github.com/chuyik/d4f5903bf18a45b2cff27666ac3ac243>.
+## lets encrypt
+* `lego --email="akagi201@gmail.com" --domains="akjong.com" --http run`
 
 ## TEST
 
